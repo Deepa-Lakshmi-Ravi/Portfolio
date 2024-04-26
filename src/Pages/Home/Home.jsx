@@ -80,7 +80,7 @@ const Home = () => {
                     <Fade direction="500" cascade>
                       <div className="profile-photo">
                         <img
-                          src="/src/assets/deepar.JPEG"
+                          src="/src/assets/deepar.JPG"
                           alt="profile picture"
                         ></img>
                       </div>
