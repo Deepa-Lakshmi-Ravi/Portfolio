@@ -53,13 +53,13 @@ const Education = () => {
                 <div className="time-line-item">
                   <div className="circle-dot"></div>
                   <h3 className="item-title">Android Development WorkShop</h3>
-                  <h4 className="item-title">UCE-BIT Campus</h4>
+                  <h4 className="item-title">MIT, Anna University</h4>
                   <h4 className="item-title">
                     <i className="fa-solid fa-calendar"></i>&nbsp;
                     FEB - 2023
                   </h4>
                   <div className="education-btn">
-                    <a href="" target="_blank">
+                    <a href="https://drive.google.com/file/d/12vkoPNrzWGgjKK87eqgtVzbweDpdv3U6/view?usp=drive_link" target="_blank">
                       <button type="submit" className="submit-btn">
                         View
                       </button>
