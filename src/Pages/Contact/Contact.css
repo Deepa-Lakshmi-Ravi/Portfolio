@@ -36,3 +36,7 @@
   cursor: pointer;
   margin-top: 20px;
 }
+.send-btn button:hover{
+  box-shadow: 0 0 10px #e5e5e5;
+  transform: scale(1.1);
+}

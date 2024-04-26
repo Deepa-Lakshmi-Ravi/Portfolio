@@ -60,3 +60,7 @@
   border-radius: 10px;
   cursor: pointer;
 }
+.view-btn:hover{
+  box-shadow: 0 0 10px #e5e5e5;
+  transform: scale(1.1);
+}

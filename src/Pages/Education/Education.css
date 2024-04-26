@@ -37,8 +37,22 @@
   bottom: 0;
   background-color: #ff9301;
 }
+.certificate .time-line-item::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 106%;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  background-color: #ff9301;
+}
 .education-content .time-line-item:last-child {
   padding-bottom: 0;
+}
+.education-content i,
+.certificate i{
+  color: #ff9301;
 }
 .circle-dot {
   position: absolute;
@@ -68,4 +82,9 @@
   border: none;
   border-radius: 10px;
   width: 30%;
+  cursor: pointer;
+}
+.submit-btn:hover{
+  box-shadow: 0 0 10px #e5e5e5;
+  transform: scale(1.1);
 }
