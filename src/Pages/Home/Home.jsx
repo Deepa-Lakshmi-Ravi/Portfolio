@@ -1,6 +1,7 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { Fade, Zoom } from "react-awesome-reveal";
 import "./Home.css";
+import Profile from '../../assets/deepar.png';
 
 const Home = () => {
   const [text] = useTypewriter({
@@ -80,7 +81,7 @@ const Home = () => {
                     <Fade direction="500" cascade>
                       <div className="profile-photo">
                         <img
-                          src="/src/assets/deepar.png"
+                          src={Profile}
                           alt="profile picture"
                         ></img>
                       </div>
