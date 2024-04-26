@@ -23,12 +23,32 @@
   align-items: center;
 }
 .profile-photo {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  width: 200px;
+  height: 350px;
+  border-radius: 2px;
   overflow: hidden;
-  border: 15px solid #444444;
+  border: 1px solid #0e0e0e;
   box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
+}
+.profile-photo::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-top: 7px solid #ff9301;
+  border-left: 7px solid #ff9301;
+  top: -40px;
+  left: -30px;
+}
+.profile-photo::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-bottom: 7px solid #ff9301;
+  border-right: 7px solid #ff9301;
+  bottom: -40px;
+  right: -30px;
 }
 img {
   max-width: 100%;

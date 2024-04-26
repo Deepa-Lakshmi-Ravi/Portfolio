@@ -1,7 +1,7 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { Fade, Zoom } from "react-awesome-reveal";
 import "./Home.css";
-import Profile from '../../assets/Deepa.jpeg';
+import Profile from '../../assets/Deepa-3.jpg';
 
 const Home = () => {
   const [text] = useTypewriter({
@@ -83,7 +83,7 @@ const Home = () => {
                         <img
                           src={Profile}
                           alt="profile picture"
-                        ></img>
+                        />
                       </div>
                     </Fade>
                   </Zoom>

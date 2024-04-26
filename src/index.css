@@ -15,6 +15,9 @@
     flex: 0 0 80%;
     max-width: 100%;
   }
+  .profile-photo::after {
+    margin-right: 42rem;
+  }
 }
 
 @media screen and (max-width: 995px) {
