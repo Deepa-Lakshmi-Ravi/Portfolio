@@ -97,7 +97,6 @@ const Contact = () => {
                 <ToastContainer
                   position="top-right"
                   autoClose={2000}
-                  transition={Zoom}
                 />
               </Fade>
             </Zoom>
