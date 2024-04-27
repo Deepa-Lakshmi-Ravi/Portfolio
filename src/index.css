@@ -15,9 +15,7 @@
     flex: 0 0 80%;
     max-width: 100%;
   }
-  .profile-photo::after {
-    margin-right: 42rem;
-  }
+ 
 }
 
 @media screen and (max-width: 995px) {
@@ -48,6 +46,9 @@
     margin-left: 30px;
     margin-right: 80px;
   }
+  .profile-photo::after {
+    margin-right: 42rem;
+  }
 }
 @media screen and (max-width: 728px) {
   .home .home-container .content-box {
@@ -61,6 +62,9 @@
     max-width: 100%;
     text-align: center;
   }
+  .profile-photo::after {
+    margin-right: 42rem;
+  }
 }
 @media screen and (max-width: 630px) {
   .about .about-container .about-info .info-list .col-4,
@@ -72,5 +76,32 @@
 @media screen and (max-width: 590px) {
   .home .home-container .content-box {
     padding-left: 10px;
+  }
+}
+@media screen and (max-width: 414px){
+  .home .profile-photo{
+    margin-left: 80px;
+  }
+  .home .profile-photo::after{
+    margin-right: 80px;
+  }
+  .home .profile-photo::before{
+    margin-left: 80px;
+  }
+  .home .desc{
+    padding: 20px;
+  }
+  .home .type-box h1{
+    font-size: 23px;
+  }
+  .education .education-content,
+  .certificate{
+    margin-right: 20px;
+  }
+  .contact .form .form-input{
+    width: 80%;
+  }
+  .contact .form .send-btn button{
+    width: 40%;
   }
 }
