@@ -13,7 +13,7 @@ const Project = () => {
             <div className="project-item-1">
               <i className="fa-solid fa-brain"></i>
               <h4>
-                Parkinson's Disease Prediction Using Spiral Images in Deep
+                Parkinson&aposs Disease Prediction Using Spiral Images in Deep
                 Learning
               </h4>
               <p>
@@ -22,9 +22,14 @@ const Project = () => {
                 subjects in an efficient manner.
               </p>
               <div className="btn" style={{ marginTop: "80px" }}>
-                <button type="button" className="view-btn">
-                  View
-                </button>
+              <a
+                  href="http://127.0.0.1:5000/"
+                  target="_blank"
+                >
+                  <button type="button" className="view-btn">
+                    View
+                  </button>
+                </a>
               </div>
             </div>
             <div className="project-item-2">
